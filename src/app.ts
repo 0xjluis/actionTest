@@ -1,5 +1,5 @@
 function saludar(persona: string) {
-    return "Hola, " + persona;
+    return "Probamos el pull, " + persona;
 }
 
 let usuario = "Mundo";
