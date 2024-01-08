@@ -1,13 +1,14 @@
 name: Typescript Compilation Test
 
 on:
-push:
-  branches: [ main ]
-pull_request:
-  branches: [ main ]
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   build:
+    name: build test
     runs-on: ubuntu-latest
 
     steps:
@@ -22,4 +23,3 @@ jobs:
 
     - name: Compilation test
       run: npm run build
-
