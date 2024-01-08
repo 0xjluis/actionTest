@@ -1,4 +1,4 @@
-function saludar(persona: string) {
+function saludar(persona: number) {
     return "test a, " + persona;
 }
 
